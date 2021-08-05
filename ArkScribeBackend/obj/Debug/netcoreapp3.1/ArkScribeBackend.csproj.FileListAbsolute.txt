@@ -1,0 +1,8 @@
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\bin\Debug\netcoreapp3.1\ArkScribeBackend.deps.json
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\bin\Debug\netcoreapp3.1\ArkScribeBackend.dll
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\bin\Debug\netcoreapp3.1\ArkScribeBackend.pdb
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Debug\netcoreapp3.1\ArkScribeBackend.AssemblyInfoInputs.cache
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Debug\netcoreapp3.1\ArkScribeBackend.AssemblyInfo.cs
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Debug\netcoreapp3.1\ArkScribeBackend.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Debug\netcoreapp3.1\ArkScribeBackend.dll
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Debug\netcoreapp3.1\ArkScribeBackend.pdb

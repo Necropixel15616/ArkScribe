@@ -1,0 +1,89 @@
+﻿<Page x:Class="ArkScribe.FrontEnd.Views.CreateProject"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ArkScribe.FrontEnd.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="700"
+      Title="CreateProject">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resources/1.jpg.d88d14f8661069cfa413a8454256eb29.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition Width="60"></ColumnDefinition>
+            <ColumnDefinition Width="60"></ColumnDefinition>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+            <ColumnDefinition Width="60"></ColumnDefinition>
+            <ColumnDefinition Width="60"></ColumnDefinition>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!--Labels -->
+
+        <Label Content="Species" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" FontWeight="Bold"></Label>
+        <Label Content="Health" Grid.Row="4" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Margin="0,5,0,0" />
+        <Label Content="Stamina" Grid.Row="6" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14" FontWeight="Bold" Grid.ColumnSpan="2" Margin="47,0,0,0"></Label>
+        <Label Content="Oxygen" Grid.Row="8" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" FontWeight="Bold" Foreground="#cecee5" />
+        <Label Content="Food" Grid.Row="10" Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14" FontWeight="Bold" Margin="7,0,0,0" Foreground="#cecee5"/>
+        <Label Content="Weight" Grid.Row="4" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" FontWeight="Bold" />
+        <Label Content="Melee" Grid.Row="6" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" FontWeight="Bold" />
+        <Label Content="Speed" Grid.Row="8" Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" FontWeight="Bold" Foreground="#cecee5"/>
+       
+
+        <!--Inputs -->
+        <TextBox x:Name="txtSpecies" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="190" Height="30" Grid.ColumnSpan="4" Background="WhiteSmoke"/>
+        <TextBox x:Name="txtHealth" TextChanged="stat_TextChanged" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="30" MaxLength="3" Background="WhiteSmoke"/>
+        <TextBox x:Name="txtStamina" TextChanged="stat_TextChanged" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="6" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="30" MaxLength="3" Background="WhiteSmoke"/>
+        <TextBox x:Name="txtOxygen" TextChanged="stat_TextChanged" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="8" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="30" MaxLength="3" Background="WhiteSmoke"/>
+        <TextBox x:Name="txtFood" TextChanged="stat_TextChanged" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="10" Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="30" MaxLength="3" Background="WhiteSmoke"/>
+        <TextBox x:Name="txtWeight" TextChanged="stat_TextChanged" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="4" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="30" MaxLength="3" Background="WhiteSmoke"/>
+        <TextBox x:Name="txtMelee" TextChanged="stat_TextChanged" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="6" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="30" MaxLength="3" Background="WhiteSmoke"/>
+        <TextBox x:Name="txtSpeed" TextChanged="stat_TextChanged" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="8" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="30" MaxLength="3" Background="WhiteSmoke"/>
+
+        <!--Buttons -->
+        <Button x:Name="btnCancelCreate" Grid.Column="5" BorderBrush="Gray" BorderThickness="0" Grid.Row="10" Height="30" Width="30" Click="btnCancelCreate_Click" Margin="4,5,6,5" RenderTransformOrigin="1.65,0.8" Grid.ColumnSpan="2">
+            <Image Source="/Resources/Back-2-2-icon.png" />
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                    <GradientStop Color="WhiteSmoke" Offset="0" />
+                    <GradientStop Color="DarkCyan"  Offset="1.0" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <Button x:Name="btnCreateProject" Content="Create" FontWeight="Bold" Grid.Column="6" BorderBrush="Black" BorderThickness="0" Grid.Row="10" Height="30" Width="70" Click="btnCreateProject_Click" Grid.ColumnSpan="2" Margin="45,4,5,6">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                    <GradientStop Color="Aquamarine" Offset="1.0" />
+                    <GradientStop Color="WhiteSmoke" Offset="0" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="Create Project" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="4" Grid.Row="1" FontSize="20" FontWeight="ExtraBold" Height="40" Width="149" RenderTransformOrigin="1.062,0.412" Grid.ColumnSpan="4" Foreground="#614051" />
+        <Label x:Name="lblStatError" Content="Stats can only be 3 digit numbers!" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="4" Grid.Row="12" Foreground="Red" Visibility="Hidden" Grid.ColumnSpan="5" />
+
+
+    </Grid>
+</Page>

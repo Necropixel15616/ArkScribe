@@ -1,0 +1,3 @@
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.FrontEnd.pdb
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.Backend.pdb
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.FrontEnd.exe

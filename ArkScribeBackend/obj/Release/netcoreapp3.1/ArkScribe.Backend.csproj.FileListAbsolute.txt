@@ -1,0 +1,9 @@
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\bin\Release\netcoreapp3.1\ArkScribe.Backend.deps.json
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\bin\Release\netcoreapp3.1\ArkScribe.Backend.dll
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\bin\Release\netcoreapp3.1\ArkScribe.Backend.pdb
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Release\netcoreapp3.1\ArkScribe.Backend.AssemblyInfoInputs.cache
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Release\netcoreapp3.1\ArkScribe.Backend.AssemblyInfo.cs
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Release\netcoreapp3.1\ArkScribe.Backend.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Release\netcoreapp3.1\ArkScribe.Backend.dll
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Release\netcoreapp3.1\ArkScribe.Backend.pdb
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ArkScribeBackend\obj\Release\netcoreapp3.1\ArkScribe.Backend.csprojAssemblyReference.cache

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArkScribe.Backend", "ArkScribeBackend\ArkScribe.Backend.csproj", "{8A7B5C53-4E98-4F85-B003-5305C19ED2E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArkScribe.FrontEnd", "ArkScribeFrontEnd\ArkScribe.FrontEnd.csproj", "{6BDF417F-29D8-4331-AF91-16D6748D9813}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ArkScribe.Setup", "ArkScribe.Setup\ArkScribe.Setup.vdproj", "{1A8010B0-15E4-4CC7-880D-6CE47F8B9801}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A7B5C53-4E98-4F85-B003-5305C19ED2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7B5C53-4E98-4F85-B003-5305C19ED2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7B5C53-4E98-4F85-B003-5305C19ED2E9}.Debug|x86.ActiveCfg = Debug|x86
+		{8A7B5C53-4E98-4F85-B003-5305C19ED2E9}.Debug|x86.Build.0 = Debug|x86
+		{8A7B5C53-4E98-4F85-B003-5305C19ED2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7B5C53-4E98-4F85-B003-5305C19ED2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7B5C53-4E98-4F85-B003-5305C19ED2E9}.Release|x86.ActiveCfg = Release|x86
+		{8A7B5C53-4E98-4F85-B003-5305C19ED2E9}.Release|x86.Build.0 = Release|x86
+		{6BDF417F-29D8-4331-AF91-16D6748D9813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDF417F-29D8-4331-AF91-16D6748D9813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDF417F-29D8-4331-AF91-16D6748D9813}.Debug|x86.ActiveCfg = Debug|x86
+		{6BDF417F-29D8-4331-AF91-16D6748D9813}.Debug|x86.Build.0 = Debug|x86
+		{6BDF417F-29D8-4331-AF91-16D6748D9813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDF417F-29D8-4331-AF91-16D6748D9813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BDF417F-29D8-4331-AF91-16D6748D9813}.Release|x86.ActiveCfg = Release|x86
+		{6BDF417F-29D8-4331-AF91-16D6748D9813}.Release|x86.Build.0 = Release|x86
+		{1A8010B0-15E4-4CC7-880D-6CE47F8B9801}.Debug|Any CPU.ActiveCfg = Debug
+		{1A8010B0-15E4-4CC7-880D-6CE47F8B9801}.Debug|Any CPU.Build.0 = Debug
+		{1A8010B0-15E4-4CC7-880D-6CE47F8B9801}.Debug|x86.ActiveCfg = Debug
+		{1A8010B0-15E4-4CC7-880D-6CE47F8B9801}.Debug|x86.Build.0 = Debug
+		{1A8010B0-15E4-4CC7-880D-6CE47F8B9801}.Release|Any CPU.ActiveCfg = Release
+		{1A8010B0-15E4-4CC7-880D-6CE47F8B9801}.Release|Any CPU.Build.0 = Release
+		{1A8010B0-15E4-4CC7-880D-6CE47F8B9801}.Release|x86.ActiveCfg = Release
+		{1A8010B0-15E4-4CC7-880D-6CE47F8B9801}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8806CBC6-5BA8-435F-B170-F709FCAAA440}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/jtuckwell15616
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ArkScribeBackend\\ArkScribe.Backend.csproj
+		SccProjectName1 = ArkScribeBackend
+		SccLocalPath1 = ArkScribeBackend
+		SccProjectUniqueName2 = ArkScribeFrontEnd\\ArkScribe.FrontEnd.csproj
+		SccProjectName2 = ArkScribeFrontEnd
+		SccLocalPath2 = ArkScribeFrontEnd
+		SccProjectUniqueName3 = ArkScribe.Setup\\ArkScribe.Setup.vdproj
+		SccProjectName3 = ArkScribe.Setup
+		SccLocalPath3 = ArkScribe.Setup
+	EndGlobalSection
+EndGlobal

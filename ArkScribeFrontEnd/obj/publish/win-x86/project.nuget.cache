@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WF+SLCBgCQEDsk1jCkHfLbd0DH1R7/N289MjWdt5G3OWd3/WsXrpjKmeseHXSRSPfE2Qm8366dT2z1swaPzbvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jacob\\Desktop\\Programming\\ArkScribe2\\ArkScribeBackend\\ArkScribeFrontEnd\\ArkScribe.FrontEnd.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jacob\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.15\\microsoft.netcore.app.runtime.win-x86.3.1.15.nupkg.sha512",
+    "C:\\Users\\Jacob\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.15\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.15.nupkg.sha512",
+    "C:\\Users\\Jacob\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.15\\microsoft.aspnetcore.app.runtime.win-x86.3.1.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject></StartupObject>
+    <Product>Ark Scribe: Breeding Tracker</Product>
+    <Authors>Jacob Tuckwell</Authors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <OutputPath />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <OutputPath>C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\1.jpg.d88d14f8661069cfa413a8454256eb29.jpg" />
+    <None Remove="Resources\3370501.png" />
+    <None Remove="Resources\4.jpg.922b13a84f27833b97127f97180d65fa.jpg" />
+    <None Remove="Resources\6.jpg.30b15d9f18c9bf0215d3e641864b86e6.jpg" />
+    <None Remove="Resources\Back-2-2-icon.png" />
+    <None Remove="Resources\delete-1-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArkScribeBackend\ArkScribe.Backend.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\1.jpg.d88d14f8661069cfa413a8454256eb29.jpg" />
+    <Resource Include="Resources\3370501.png" />
+    <Resource Include="Resources\4.jpg.922b13a84f27833b97127f97180d65fa.jpg" />
+    <Resource Include="Resources\6.jpg.30b15d9f18c9bf0215d3e641864b86e6.jpg" />
+    <Resource Include="Resources\Back-2-2-icon.png" />
+    <Resource Include="Resources\delete-1-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

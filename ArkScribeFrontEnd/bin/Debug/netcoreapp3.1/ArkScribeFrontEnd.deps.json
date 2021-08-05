@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ArkScribeFrontEnd/1.0.0": {
+        "dependencies": {
+          "ArkScribeBackend": "1.0.0"
+        },
+        "runtime": {
+          "ArkScribeFrontEnd.dll": {}
+        }
+      },
+      "ArkScribeBackend/1.0.0": {
+        "runtime": {
+          "ArkScribeBackend.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArkScribeFrontEnd/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArkScribeBackend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

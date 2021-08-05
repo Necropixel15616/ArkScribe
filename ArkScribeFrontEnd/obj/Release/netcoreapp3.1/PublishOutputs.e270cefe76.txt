@@ -1,0 +1,8 @@
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.FrontEnd.exe
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.FrontEnd.dll
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.FrontEnd.deps.json
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.FrontEnd.runtimeconfig.json
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.FrontEnd.dll.config
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.FrontEnd.pdb
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.Backend.dll
+C:\Users\Jacob\Desktop\Programming\ArkScribe2\ArkScribeBackend\ReleaseBuild\netcoreapp3.1\publish\ArkScribe.Backend.pdb
